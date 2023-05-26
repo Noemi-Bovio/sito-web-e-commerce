@@ -1,15 +1,19 @@
 body {
-      background: #eee;
+      background: #f5bbd88c;
       font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
       font-size: 14px;
       color: #000;
+      background-image: url("immagini/sfondogioielli.jpg");
       margin: 0;
       padding: 0;
     }
+#logo {width: 25%;
+    height: 30%;
+    margin: auto;}
 
     .swiper {
-      width: 60%;
-      height: 60%;
+      width: 50%;
+      height: 50%;
     }
 
     .swiper-slide {
