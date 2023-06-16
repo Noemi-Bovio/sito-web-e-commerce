@@ -1,4 +1,3 @@
-
 ---
 theme: default
 _class: lead

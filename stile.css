@@ -1,19 +1,27 @@
 body {
-      background: #f5bbd88c;
-      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      background:white;
+      font-family:'Segoe UI';
       font-size: 14px;
       color: #000;
-      background-image: url("immagini/sfondogioielli.jpg");
+      background-image: url("immagini/sfondo.jpg"); 
+      background-repeat: no-repeat;
+      background-size: 100%;
       margin: 0;
       padding: 0;
     }
+     header {
+      background-color: #f8c9e0;
+      color: #fff;
+      padding: 20px;
+    }
+
 #logo {width: 25%;
     height: 30%;
     margin: auto;}
 
     .swiper {
-      width: 50%;
-      height: 50%;
+      max-width: auto;
+      max-height: auto;
     }
 
     .swiper-slide {
@@ -22,7 +30,165 @@ body {
     }
 
     .swiper-slide img {
-      display: block;
-      width: 100%;
+      max-width: auto;
+      max-height: auto;
     }
 
+    .banner {
+      background-image: url(sfondo.jpg);
+      background-size: cover;
+      background-position: center;
+      text-align: center;
+      font-size:xx-large;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      padding: 100px 20px;
+      color: #fff;
+    }
+
+    .banner h1 {
+      font-size: 80px;
+      margin-bottom: 20px;
+    }
+
+    .cta-button {
+      display: inline-block;
+      background-color:#f8c9e0;
+      color: #333;
+      padding: 10px 20px;
+      font-size: 18px;
+      text-decoration: none;
+      border-radius: 4px;
+      transition: background-color 0.3s ease;
+    }
+    
+    .cta-button:hover {
+      background-color: #f8c9e0;
+    }
+
+    .chisiamo {
+      padding: 20px;
+      background-color:#fff;
+      margin:auto;
+      padding-left: 15%;
+      padding-right: 15%;
+      padding-top: 10%;
+      padding-bottom: 10%;
+
+    }
+    
+    .chisiamo h2 {
+      font-size: 60px;
+      color:#333;
+      background-color: #f8c9e0;
+      text-align: center;
+      margin-bottom: 30px;
+      padding: 5%;
+    }
+    
+    .chisiamo p {
+      font-size: 18px;
+      line-height: 1.5;
+      margin-bottom: 30px;
+    }
+
+.carrello {
+  padding: 50px 20px;
+  background: #fff;
+}
+
+.carrello h2 {
+  font-size: 45px;
+  background-color:#f8c9e0;
+  color:white;
+  text-align: center;
+  margin-bottom: 30px;
+  padding: 5%;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table th, table td {
+  padding: 10px;
+  text-align: left;
+}
+
+table th {
+  background-color: #f0f0f0;
+}
+
+table td a {
+  color: #ff0000;
+  text-decoration: none;
+}
+
+tfoot .total-label {
+  text-align: right;
+  font-weight: bold;
+}
+
+tfoot .total-amount {
+  font-weight: bold;
+}
+
+.checkout-button {
+  display: inline-block;
+  background-color:#f8c9e0;
+  color: #333;
+  padding: 10px 20px;
+  font-size: 18px;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
+}
+
+.checkout-button:hover {
+  background-color:#f8c9e0;
+}
+
+.contatti {
+  padding: 50px 20px;
+}
+
+.contatti h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+form input, form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+form input[type="submit"] {
+  background-color:#f8c9e0;
+  color: #333;
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form input[type="submit"]:hover {
+  background-color:#f8c9e0;
+}
+
+footer {
+  background-color:#f8c9e0;
+  color: #333;
+  padding: 20px;
+  text-align: center;
+}
