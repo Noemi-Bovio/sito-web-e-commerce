@@ -3,12 +3,13 @@ body {
       font-family:'Segoe UI';
       font-size: 14px;
       color: #000;
-      background-image: url("immagini/sfondo.jpg"); 
+      background-image: url("immagini/gioielleria2.jpg"); 
       background-repeat: no-repeat;
-      background-size: 100%;
-      margin: 0;
-      padding: 0;
+      background-attachment: fixed;
+      background-size: cover;
+      background-position: center;
     }
+    
      header {
       background-color: #f8c9e0;
       color: #fff;
@@ -19,9 +20,26 @@ body {
     height: 30%;
     margin: auto;}
 
+  #body-prodotti{
+    background-image: url("immagini/chiaro.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+  }
+
+  #body-contatti{
+    background-image: url("immagini/chiaro.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+  }
+
     .swiper {
-      max-width: auto;
-      max-height: auto;
+      width: auto;
+      height: auto;
+      padding: 10%
     }
 
     .swiper-slide {
@@ -30,12 +48,12 @@ body {
     }
 
     .swiper-slide img {
-      max-width: auto;
-      max-height: auto;
+      width: 100%;
+      height: 100%;
     }
 
     .banner {
-      background-image: url(sfondo.jpg);
+      background-image: url(gielleria2.jpg);
       background-size: cover;
       background-position: center;
       text-align: center;
@@ -48,6 +66,11 @@ body {
     .banner h1 {
       font-size: 80px;
       margin-bottom: 20px;
+      text-shadow: 0px 0px 6px #333;
+    }
+
+    .banner h2 {
+      text-shadow: 0px 0px 6px #333;
     }
 
     .cta-button {
@@ -93,13 +116,13 @@ body {
 
 .carrello {
   padding: 50px 20px;
-  background: #fff;
+  background:whitesmoke;
 }
 
 .carrello h2 {
   font-size: 45px;
   background-color:#f8c9e0;
-  color:white;
+  color:#333;
   text-align: center;
   margin-bottom: 30px;
   padding: 5%;
@@ -116,7 +139,7 @@ table th, table td {
 }
 
 table th {
-  background-color: #f0f0f0;
+  background-color:rgb(236, 234, 231);
 }
 
 table td a {
@@ -186,9 +209,14 @@ form input[type="submit"]:hover {
   background-color:#f8c9e0;
 }
 
+.separa{
+  background-color: #fff;
+  padding:20px;
+}
+
 footer {
   background-color:#f8c9e0;
   color: #333;
-  padding: 20px;
+  padding: 15px;
   text-align: center;
 }
