@@ -17,8 +17,10 @@ body {
     }
 
 .logo {
-    width: 30px;
-    margin: auto;}
+    display: inline-block;
+    width: 15px;
+    margin: auto;
+    padding: auto;}
 
     .navbar-nav {
       text-align: center;
