@@ -16,8 +16,12 @@ body {
       padding: 20px;
     }
 
+    .conteiner-fluid {
+      background-color:white;
+    }
+
 .logo {
-    width: 5px;
+    width: auto;
     margin-left: 100px;
   }
 
