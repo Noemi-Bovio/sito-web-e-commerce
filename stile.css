@@ -20,6 +20,12 @@ body {
     height: 30%;
     margin: auto;}
 
+    .navbar-nav {
+      text-align: center;
+      width: auto;
+        height: auto;
+        margin: auto;}
+
   #body-prodotti{
     background-image: url("immagini/chiaro.jPg");
     background-repeat: no-repeat;
