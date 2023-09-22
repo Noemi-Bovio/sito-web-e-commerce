@@ -16,9 +16,9 @@ body {
       padding: 20px;
     }
 
-.logo {width: 10%;
-    height: 15%;
-    margin: auto;}
+.logo {width: 85px;
+    margin-top: auto;
+    padding: auto;}
 
     .navbar-nav {
       text-align: center;
