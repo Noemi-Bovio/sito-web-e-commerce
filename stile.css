@@ -16,13 +16,9 @@ body {
       padding: 20px;
     }
 
-    .conteiner-fluid {
-      background-color:white;
-    }
-
 .logo {
-    width: auto;
-    margin-left: 100px;
+    max-width: 100%;
+    margin-left: 10px;
   }
 
     .navbar-nav {
