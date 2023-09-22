@@ -16,15 +16,17 @@ body {
       padding: 20px;
     }
 
-#logo {width: 25%;
-    height: 30%;
+#logo {width: 10%;
+    height: 15%;
     margin: auto;}
 
     .navbar-nav {
       text-align: center;
+      font-size: 18px;
+      font-family: 'Patrick Hand', cursive;
       width: auto;
-        height: auto;
-        margin: auto;}
+      height: auto;
+      margin: auto;}
 
   #body-prodotti{
     background-image: url("immagini/chiaro.jPg");
