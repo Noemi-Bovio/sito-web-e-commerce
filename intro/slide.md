@@ -6,6 +6,7 @@ backgroundColor: #fff
 backgroundImage: url('https://marp.app/assets/hero-background.svg')
 marp: true
 footer: https://github.com/matteobaccan/CorsoWebDesign
+header: '**Noemi Bovio** _Immagine di impresa_' 
 ---
 
 # Corso WebDesign
