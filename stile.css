@@ -13,7 +13,7 @@ body {
      header {
       background-color: #47A99E;
       color:white;
-      padding: 20px;
+      padding: 15px;
     }
 
 .logo {
@@ -23,11 +23,10 @@ body {
 
     .navbar-nav {
       text-align: center;
-      font-size: 22px;
+      font-size: 18px;
       font-family: 'Patrick Hand', cursive;
-      width: auto;
-      height: auto;
-      margin: auto;}
+      margin: auto;
+    }
 
   #body-prodotti{
     background-image: url("immagini/chiaro.jPg");
