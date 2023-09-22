@@ -21,7 +21,7 @@ body {
     margin: auto;}
 
   #body-prodotti{
-    background-image: url("immagini/chiaro.jpg");
+    background-image: url("immagini/chiaro.jPg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -85,7 +85,7 @@ body {
     }
     
     .cta-button:hover {
-      background-color: #f8c9e0;
+      background-color:  #47A99E;
     }
 
     .chisiamo {
@@ -102,7 +102,7 @@ body {
     .chisiamo h2 {
       font-size: 60px;
       color:#333;
-      background-color: #f8c9e0;
+      background-color:  #47A99E;
       text-align: center;
       margin-bottom: 30px;
       padding: 5%;
