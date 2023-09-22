@@ -16,9 +16,9 @@ body {
       padding: 20px;
     }
 
-.logo {width: 85px;
-    margin-top: auto;
-    padding: auto;}
+.logo {
+    width: 60px;
+    margin: auto;}
 
     .navbar-nav {
       text-align: center;
@@ -68,7 +68,7 @@ body {
       font-size:xx-large;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       padding: 100px 20px;
-      color: #fff;
+      color:white;
     }
 
     .banner h1 {
@@ -99,7 +99,7 @@ body {
 
     .chisiamo {
       padding: 20px;
-      background-color:#fff;
+      background-color:white;
       margin:auto;
       padding-left: 15%;
       padding-right: 15%;
