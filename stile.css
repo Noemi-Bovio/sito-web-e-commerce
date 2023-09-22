@@ -12,12 +12,12 @@ body {
     
      header {
       background-color: #47A99E;
-      color: #fff;
+      color:white;
       padding: 20px;
     }
 
 .logo {
-    width: 60px;
+    width: 30px;
     margin: auto;}
 
     .navbar-nav {
@@ -219,7 +219,7 @@ form input[type="submit"]:hover {
 }
 
 .separa{
-  background-color: #fff;
+  background-color:white;
   padding:20px;
 }
 
