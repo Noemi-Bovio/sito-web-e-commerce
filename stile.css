@@ -17,14 +17,13 @@ body {
     }
 
 .logo {
-    display: inline-block;
-    width: 15px;
+    width: 8px;
     margin: auto;
     padding: auto;}
 
     .navbar-nav {
       text-align: center;
-      font-size: 18px;
+      font-size: 22px;
       font-family: 'Patrick Hand', cursive;
       width: auto;
       height: auto;
