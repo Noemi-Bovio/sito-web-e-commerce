@@ -50,9 +50,9 @@ body {
       font-weight: bold; }
 
 .separa {
-        background-color: #ff0000;}
-.sezione {
-          background-color: #ff0000;}
+          background-color:aliceblue;
+          max-width: 80%;
+          min-width: 10%;}
 
       .evidenza {
         text-align: center;
