@@ -51,6 +51,7 @@ body {
 
       .evidenza {
         background-color: aliceblue;
+        opacity: 30%;
         text-align: center;
         padding: 20px 0;
     }
