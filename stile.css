@@ -10,37 +10,32 @@ body {
       background-position: center;
     }
 
-    .popup-overlay {
-      display: none;
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background: rgba(0, 0, 0, 0.7);
-      z-index: 1;
-  }
+  .popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
 
-  .popup-content {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      background:antiquewhite;
-      border: 2px solid #ea4f8a;
-      padding: 20px;
-      text-align: center;
-      z-index: 2;
-  }
-
+.popup-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+}
   /* Stili per il pulsante di chiusura */
-  .close-button {
-      position: absolute;
-      top: 10px;
-      right: 10px;
-      cursor: pointer;
-  }
-    
+.chiudi-popup {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
      header {
       background-color: #47A99E;
       color:white;

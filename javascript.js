@@ -1,22 +1,22 @@
-// Funzione per mostrare il pop-up
-function showPopup() {
+ // Funzione per aprire il popup
+ function apriPopup() {
   document.getElementById("popup").style.display = "block";
 }
 
-// Funzione per chiudere il pop-up
-function closePopup() {
+// Funzione per chiudere il popup
+function chiudiPopup() {
   document.getElementById("popup").style.display = "none";
 }
 
-// Mostra il pop-up quando il documento è pronto
-document.addEventListener("DOMContentLoaded", function() {
-  showPopup();
-});
+// Aggiungi gestori di eventi ai pulsanti
+document.getElementById("apriPopup").addEventListener("click", apriPopup);
+document.getElementById("chiudiPopup").addEventListener("click", chiudiPopup);
+</script>
 
-// Chiudi il pop-up quando l'utente clicca sul pulsante di chiusura
-document.getElementById("close-popup").addEventListener("click", function() {
-  closePopup();
-})
+Ora, quando un utente fa clic sul pulsante "Apri Popup", il popup verrà visualizzato, e quando fa clic sul pulsante di chiusura (l'icona "X"), il popup verrà chiuso.
+
+Questo è un esempio di un popup di base. Puoi personalizzare ulteriormente il contenuto e lo stile del popup secondo le tue esigenze.
+
 
 var swiper = new Swiper(".mySwiper", {
       spaceBetween: 30,
