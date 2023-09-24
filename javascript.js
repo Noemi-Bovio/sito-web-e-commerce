@@ -1,21 +1,3 @@
- // Funzione per aprire il popup
- function apriPopup() {
-  document.getElementById("popup").style.display = "block";
-}
-
-// Funzione per chiudere il popup
-function chiudiPopup() {
-  document.getElementById("popup").style.display = "none";
-}
-
-// Aggiungi gestori di eventi ai pulsanti
-document.getElementById("apriPopup").addEventListener("click", apriPopup);
-document.getElementById("chiudiPopup").addEventListener("click", chiudiPopup);
-</script>
-
-Ora, quando un utente fa clic sul pulsante "Apri Popup", il popup verrà visualizzato, e quando fa clic sul pulsante di chiusura (l'icona "X"), il popup verrà chiuso.
-
-Questo è un esempio di un popup di base. Puoi personalizzare ulteriormente il contenuto e lo stile del popup secondo le tue esigenze.
 
 
 var swiper = new Swiper(".mySwiper", {
@@ -46,3 +28,52 @@ function svuotaCarrello() {
   var carrello = document.getElementById("carrello");
   carrello.innerHTML = 0;
 }
+
+// Funzione per mostrare il popup di benvenuto
+function mostraPopup() {
+  var popup = document.getElementById("popup");
+  popup.style.display = "block";
+}
+
+// Funzione per chiudere il popup
+function chiudiPopup() {
+  var popup = document.getElementById("popup");
+  popup.style.display = "none";
+}
+
+// Funzione per impostare un cookie
+function impostaCookie(nome, valore, giorni) {
+  var scadenza = new Date();
+  scadenza.setTime(scadenza.getTime() + (giorni * 24 * 60 * 60 * 1000));
+  var scadenzaString = "expires=" + scadenza.toUTCString();
+  document.cookie = nome + "=" + valore + ";" + scadenzaString + ";path=/";
+}
+
+// Funzione per ottenere il valore di un cookie
+function ottieniCookie(nome) {
+  var nomeCookie = nome + "=";
+  var cookies = document.cookie.split(';');
+  for (var i = 0; i < cookies.length; i++) {
+      var cookie = cookies[i];
+      while (cookie.charAt(0) === ' ') {
+          cookie = cookie.substring(1);
+      }
+      if (cookie.indexOf(nomeCookie) === 0) {
+          return cookie.substring(nomeCookie.length, cookie.length);
+      }
+  }
+  return "";
+}
+
+// Mostra il popup solo se il cookie di benvenuto non è stato impostato
+window.onload = function () {
+  var cookieBenvenuto = ottieniCookie("benvenuto");
+  if (cookieBenvenuto === "") {
+      mostraPopup();
+      impostaCookie("benvenuto", "visualizzato", 30); // Imposta il cookie per 30 giorni
+  }
+};
+
+// Chiudi il popup quando il pulsante "Chiudi" viene cliccato
+document.getElementById("chiudiPopup").addEventListener("click", chiudiPopup);
+</script>
