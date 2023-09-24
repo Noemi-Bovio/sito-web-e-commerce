@@ -39,10 +39,12 @@ body {
   
   nav ul li a {
       text-decoration: none;
-      color: #fff;
+      color: blueviolet;
       font-weight: bold;
   }
-
+  nav a:hover {
+    text-decoration: underline;
+    
   #body-prodotti{
     background-image: url("immagini/chiaro.jPg");
     background-repeat: no-repeat;
