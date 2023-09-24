@@ -74,22 +74,6 @@ body {
         color: #ea4f8a;
         font-weight: bold;
     }
-    html,
-    body {
-      position: relative;
-      height: 100%;
-    }
-
-    body {
-      background: white;
-      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-      font-size: 14px;
-      color: #000;
-      margin: 0;
-      padding: 0;
-    }
-
-  
 
   #body-prodotti{
     background-image: url("immagini/chiaro.jPg");
@@ -124,7 +108,7 @@ body {
     }
 
     .banner {
-      background-image: url(gielleria2.jpg);
+      background-image: url(immagini/modella\ home.jpg);
       background-size: cover;
       background-position: center;
       text-align: center;
