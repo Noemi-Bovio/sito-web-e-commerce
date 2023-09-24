@@ -26,13 +26,3 @@ function svuotaCarrello() {
   var carrello = document.getElementById("carrello");
   carrello.innerHTML = 0;
 }
-
-var swiper = new Swiper(".mySwiper1", {
-  slidesPerView: 3,
-  spaceBetween: 30,
-  freeMode: true,
-  pagination: {
-    el: ".swiper-pagination",
-    clickable: true,
-  },
-})
