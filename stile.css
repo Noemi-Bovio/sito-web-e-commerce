@@ -61,6 +61,7 @@ body {
 
     .product img {
         max-width: 100%;
+        min-width: 10%;
     }
 
     .product h3 {
@@ -73,7 +74,42 @@ body {
         color: #ea4f8a;
         font-weight: bold;
     }
+    html,
+    body {
+      position: relative;
+      height: 100%;
+    }
 
+    body {
+      background: white;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color: #000;
+      margin: 0;
+      padding: 0;
+    }
+
+    .swiper {
+      width: 100%;
+      height: 100%;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    
   #body-prodotti{
     background-image: url("immagini/chiaro.jPg");
     background-repeat: no-repeat;
