@@ -1,34 +1,4 @@
 
-
-var swiper = new Swiper(".mySwiper", {
-      spaceBetween: 30,
-      effect: "fade",
-      navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-      },
-      pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-      },
-    })
- function aggiungiAlCarrello() {
-  var carrello = document.getElementById("carrello");
-  var numero = parseInt(carrello.innerHTML);
-  numero++;
-  carrello.innerHTML = numero;
-}
-function rimuoviDalCarrello() {
-  var carrello = document.getElementById("carrello");
-  var numero = parseInt(carrello.innerHTML);
-  numero--;
-  carrello.innerHTML = numero;
-}
-function svuotaCarrello() {
-  var carrello = document.getElementById("carrello");
-  carrello.innerHTML = 0;
-}
-
 // Funzione per mostrare il popup di benvenuto
 function mostraPopup() {
   var popup = document.getElementById("popup");
@@ -76,4 +46,34 @@ window.onload = function () {
 
 // Chiudi il popup quando il pulsante "Chiudi" viene cliccato
 document.getElementById("chiudiPopup").addEventListener("click", chiudiPopup);
-</script>
+
+var swiper = new Swiper(".mySwiper", {
+      spaceBetween: 30,
+      effect: "fade",
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    })
+ function aggiungiAlCarrello() {
+  var carrello = document.getElementById("carrello");
+  var numero = parseInt(carrello.innerHTML);
+  numero++;
+  carrello.innerHTML = numero;
+}
+function rimuoviDalCarrello() {
+  var carrello = document.getElementById("carrello");
+  var numero = parseInt(carrello.innerHTML);
+  numero--;
+  carrello.innerHTML = numero;
+}
+function svuotaCarrello() {
+  var carrello = document.getElementById("carrello");
+  carrello.innerHTML = 0;
+}
+
+
