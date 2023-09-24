@@ -1,6 +1,6 @@
 body {
       background:white;
-      font-family:'Segoe UI';
+      font-family:'Patrick Hand', cursive;
       font-size: 14px;
       color: #000;
       background-image: url("immagini/gioielleria2.jpg"); 
@@ -19,7 +19,8 @@ body {
 .logo {
     max-width: 100%;
     max-height: 100%;
-    margin-left: 10px;
+    margin-left: 20px;
+    padding: auto;
   }
 
     .navbar-nav {
@@ -48,7 +49,7 @@ body {
     color: blueviolet;
       font-weight: bold; }
 
-      .featured-products {
+      .evidenza {
         text-align: center;
         padding: 20px 0;
     }
@@ -69,7 +70,8 @@ body {
 
     .product .price {
         font-size: 20px;
-        color: #ff8800;
+        color: #ea4f8a;
+        font-weight: bold;
     }
 
   #body-prodotti{
