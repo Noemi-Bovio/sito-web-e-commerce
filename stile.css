@@ -50,13 +50,12 @@ body {
       font-weight: bold; }
 
       .evidenza {
-        background-color: aliceblue;
-        opacity: 30%;
         text-align: center;
         padding: 20px 0;
     }
 
     .product {
+        background-color: aliceblue;
         display: inline-block;
         margin: 20px;
     }
