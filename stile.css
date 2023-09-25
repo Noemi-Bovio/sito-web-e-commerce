@@ -19,14 +19,14 @@ body {
 .logo img{
     max-width: 25%;
     min-width: 5%;
-    margin-left: 300px;
+    margin-left: 360px;
     padding: 2px;
   }
     .navbar-nav {
       text-align: center;
       font-size: 18px;
       font-family: 'Patrick Hand', cursive;
-      margin-left: 300px;
+      margin-left: 360px;
       padding: 2px;
     }
       nav ul {
