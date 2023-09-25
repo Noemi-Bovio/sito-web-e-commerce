@@ -11,10 +11,14 @@ body {
       background-position: center;
     }
 
-     header {
+    header {
       background-color: #47A99E;
       color:white;
       padding: 15px;
+    }
+
+  .container-fluid {
+      background-color: white;
     }
 
 #totale {
@@ -24,12 +28,10 @@ body {
       margin:auto auto auto 460px;
     }
 
-
 .logo img{
     max-width: 30%;
     min-width: 5%;
     padding: 2px;
-    position: center;
   }
     .navbar-nav {
       text-align: center;
