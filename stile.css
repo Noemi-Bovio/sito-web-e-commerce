@@ -49,8 +49,8 @@ body {
 .logo img{
     max-width: 25%;
     min-width: 5%;
-    margin-left: 385px;
     padding: 2px;
+    position: center;
   }
     .navbar-nav {
       text-align: center;
