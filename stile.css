@@ -345,9 +345,75 @@ form input[type="submit"]:hover {
   padding:20px;
 }
 
-footer {
-  background-color:#47A99E;
-  color: #333;
-  padding: 15px;
+.footer {
+  background-color: #935931;
+  color: white;
+  padding: 20px;
+  align-content: center;
+}
+
+.contatti-social{
+  display:inline-block;
+  margin: 0px 30px;
+}
+
+#map {
+  width: auto;
+  height: 150px;
+  margin: 0px 10px 10px auto;
+}
+
+.fot{
+  display: inline-block;
+  margin: auto;
+  vertical-align: top;
+}
+
+h4{
+  padding: 10px;
+}
+
+#rimandosocial{
+  margin-left:0px ;
+  padding-left:0px
+}
+
+.social{
+  margin: 0px 10px;
+  display: inline-block;
+  color: white;
+
+}
+
+#testofooter{
+  max-width: 500px;
+  font-size: 12px;
+  text-align: left;
+  color: #FFE6AE;
+}
+
+}
+
+@media screen and (max-width: 700px){
+#map {
+  width: auto;
+  height: 150px;
+  margin: 0px auto 10px auto;
+}
+
+#box-prodotti{
+  margin: 3% auto;
+  max-width: 80%;
   text-align: center;
+}
+
+.btn-primary{
+  font-size: 10px;
+  padding: 4px;
+}
+
+h4{
+  border-top: 2px solid white;
+  padding: 10px;
+}
 }
