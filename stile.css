@@ -130,6 +130,9 @@ h3{
         border-radius: 10px;
     }
 
+#prodevidenza h1{
+      color:red;
+    }
     .product {
         background-color: aliceblue;
         display: inline-block;
@@ -221,10 +224,6 @@ h3{
     .cta-button:hover {
       background-color: #ea4f8a;
       color:white;
-    }
-
-    h1{
-      color:red;
     }
 
     .chisiamo {
