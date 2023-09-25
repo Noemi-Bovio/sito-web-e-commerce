@@ -131,7 +131,7 @@ font-variation-settings:
 'wght' 400,
 'GRAD' 0,
 'opsz' 24
-}
+  }
 }
         
               /* Stili per la barra di ricerca */
@@ -246,7 +246,15 @@ font-variation-settings:
         font-weight: bold;
         font-size: 22px;
     }
-
+    
+  .sfondo prod{
+    background-image: url("immagini/chiaro.jPg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+  }
+  
   #body-prodotti{
     background-image: url("immagini/chiaro.jPg");
     background-repeat: no-repeat;
