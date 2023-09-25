@@ -16,19 +16,11 @@ body {
       padding: 15px;
     }
 
-.logo {
-    max-width: 200%;
-    max-width: 10%;
-    margin: 15px;
-    padding: auto;
-  }
 
 .logo img{
-    max-width: 100%;
-    max-height: 100%;
-    min-height: 50%;
+    max-width: 200%;
     min-width: 50%;
-    margin-left: 455px;
+    margin-left: -55px;
     padding: auto;
   }
     .navbar-nav {
@@ -63,7 +55,7 @@ body {
           min-width: 10%;}
 
 #centro {
-  background-color:aliceblue;
+  background-color:a;
   max-width: 80%;
   min-width: 10%;
   padding: 50px;
