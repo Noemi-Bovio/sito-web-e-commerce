@@ -11,7 +11,7 @@ header: '**Noemi Bovio** _Immagine di impresa_'
 
 # Corso WebDesign
 
-Impariamo insieme come utilizzare HTML, CSS e Javascript
+Presentazione Sito Web E-commerce
 
 
 
@@ -26,16 +26,15 @@ img[alt~='center'] {
 
 ---
 
-## Corso di Web Design
+## Presentazione Sito Web E-commerce Gioielleria Lucky Jewels
 
-Introduzione agli strumenti di sviluppo web
-_Lezione introduttiva del corso: conoscenza, obiettivi, primi argomenti.
-Parleremo di HTML, CSS, Javascript e di tecniche di sviluppo web_
+Sviluppo di un sito web tramite l'utilizzo del linguaggio HTML, CSS, Javascript.
+Conoscenza, obiettivi, primi argomenti e tecniche di sviluppo web.
 
-matteo@baccan.it – <https://www.baccan.it>
+https://boviossproject.netlify.app
 
 ---
 
-## Nuova Slide
+## Stile sito
 
-test
+Lo stile, di forme e colori è coerente per tutto il sito web.
