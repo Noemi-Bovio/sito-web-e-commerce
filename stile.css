@@ -77,22 +77,24 @@ body {
                 cursor: pointer;
                 font-size: 12px;
             }
+      /* Stili per le icone */
+      .icon {
+        font-size: 24px;
+        margin-right: 10px;
+        color: #333;
+        text-align: center;
+    }
 
-            /* Stili per le icone */
-            .icon {
-            font-size: 24px;
-            margin-right: 10px;
-            color: #333;
-            text-align: center;
-            }
-
-            .material-symbols-outlined {
-            font-variation-settings:
-            'FILL' 0,
-            'wght' 400,
-            'GRAD' 0,
-            'opsz' 24
-            }
+   
+  
+    
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
 
    
 .separa{
