@@ -53,9 +53,45 @@ body {
 
   nav a:hover {
       text-decoration: underline;
-      color:red;
       font-weight: bold; }
 
+@media screen and (max-width: 700px){
+
+#totale {
+  background-color:white;
+  max-width: 45%;
+  min-width: 5%;
+  margin:auto;
+}
+
+.logo img{
+max-width: 45%;
+min-width: 5%;
+padding: 2px;
+}
+
+.navbar-nav {
+  text-align: center;
+  font-size: 10px;
+  font-family: 'Patrick Hand', cursive;
+  color:black;
+  padding: 2px;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  font-weight: bold; }
+}
+        
               /* Stili per la barra di ricerca */
               .search-container {
                 width: 300px;
@@ -111,7 +147,7 @@ body {
 
 #centro {
   background-color:aliceblue;
-  image: url("immagini/chiaro.jpg"); 
+  background-image: url("immagini/chiaro.jpg"); 
   max-width: 80%;
   min-width: 10%;
   padding: 50px;
