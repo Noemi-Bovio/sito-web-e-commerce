@@ -84,19 +84,21 @@ body {
         color: #333;
     }
 
-    /* Stili per le icone "carrello" e "preferiti" *
+    /* Stili per le icone "carrello" e "preferiti" */
 
     .boxcarrello{
       float: right;
     }
   
-    .cuore {
-      font-variation-settings:
-      'FILL' 0,
-      'wght' 400,
-      'GRAD' 0,
-      'opsz' 24
-    }
+    
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
    
 .separa{
           background-color:white;
