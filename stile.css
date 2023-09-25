@@ -25,9 +25,9 @@ body {
     padding: auto;
   }
 
-  img.logo{
-    max-width: 60%;
-    max-height: 60%;
+  .logo > img{
+    max-width: 45%;
+    max-height: 45%;
     min-height: 10%;
     max-width: 10%;
     margin-left: 455px;
