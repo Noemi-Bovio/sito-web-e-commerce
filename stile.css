@@ -28,8 +28,8 @@ body {
 .logo img{
     max-width: 100%;
     max-height: 100%;
-    min-height: 45%;
-    max-width: 45%;
+    min-height: 70%;
+    max-width: 70%;
     margin-left: 455px;
     padding: auto;
   }
@@ -65,7 +65,7 @@ body {
           min-width: 10%;}
 
 #centro {
-  background-color:aliceblue;
+  background-color:antiquewhite;
   max-width: 80%;
   min-width: 10%;
   padding: 50px;
@@ -98,7 +98,7 @@ body {
 
     .product .price {
         font-size: 20px;
-        color: white;
+        color: #ea4f8a;
         font-weight: bold;
     }
 
@@ -142,7 +142,7 @@ body {
       font-size:xx-large;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       padding: 100px 20px;
-      color:#ea4f8a;
+      color:white;
     }
 
     .banner h1 {
