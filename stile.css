@@ -394,6 +394,16 @@ font-variation-settings:
       color:#4f4641;
     }
 
+.sfondochi {
+  margin-top: 0px;
+  box-shadow: 0px 0px 20px #47A99E;
+  background-image: url("immagini/chiaro.jpg");
+  z-index: 3;
+  width: 100%;
+  height: auto;
+  padding:3%;
+    }
+
     .chisiamo {
       padding: 20px;
       background-color:white;
