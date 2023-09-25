@@ -52,12 +52,12 @@ body {
       font-weight: bold; }
 
 .separa{
-          background-color:aliceblue;
+          background-color:white;
           max-width: 100%;
           min-width: 10%;}
-          
+
 #ciao {
-  background-color:red;
+  background-color:aliceblue;
   max-width: 100%;
   min-width: 10%;}
 
