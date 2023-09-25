@@ -363,7 +363,7 @@ form input[type="submit"]:hover {
 #cookie{
   color: white;
   font-size:10px;
-  background-color: red;
+  background-color:#4f4641;
   margin: 2px solid white;
   width: 200px;
   padding: 15px;
@@ -380,7 +380,7 @@ form input[type="submit"]:hover {
 
 
 .footer {
-  background-color: #47A99E;
+  background-color: #4f4641;
   color: white;
   padding: 20px;
   align-content: center;
