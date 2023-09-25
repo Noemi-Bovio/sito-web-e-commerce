@@ -855,27 +855,6 @@ font-variation-settings:
   background-color:#47A99E;
 }
 
-.contatti {
-  padding: 50px 20px;
-}
-
-.contatti h2 {
-  font-size: 36px;
-  margin-bottom: 20px;
-}
-
-form label {
-  display: block;
-  margin-bottom: 10px;
-}
-
-form input, form textarea {
-  width: 100%;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  margin-bottom: 20px;
-}
 
 form input[type="submit"] {
   background-color:#47A99E;

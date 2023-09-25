@@ -1,3 +1,19 @@
+function aggiungiAlCarrello() {
+  var carrello = document.getElementById("carrello");
+  var numero = parseInt(carrello.innerHTML);
+  numero++;
+  carrello.innerHTML = numero;
+}
+function rimuoviDalCarrello() {
+  var carrello = document.getElementById("carrello");
+  var numero = parseInt(carrello.innerHTML);
+  numero--;
+  carrello.innerHTML = numero;
+}
+function svuotaCarrello() {
+  var carrello = document.getElementById("carrello");
+  carrello.innerHTML = 0;
+}
 
 var swiper = new Swiper(".mySwiper", {
       spaceBetween: 30,
@@ -26,23 +42,6 @@ cookie.style = "display:block;";
 function hideCookie() {
 let cookie = document.querySelector('#cookie');
 cookie.style = "display:none;";
-}
-
-function aggiungiAlCarrello() {
-  var carrello = document.getElementById("carrello");
-  var numero = parseInt(carrello.innerHTML);
-  numero++;
-  carrello.innerHTML = numero;
-}
-function rimuoviDalCarrello() {
-  var carrello = document.getElementById("carrello");
-  var numero = parseInt(carrello.innerHTML);
-  numero--;
-  carrello.innerHTML = numero;
-}
-function svuotaCarrello() {
-  var carrello = document.getElementById("carrello");
-  carrello.innerHTML = 0;
 }
 
 
@@ -80,9 +79,9 @@ var quantity1 = parseInt(quantity1Input.value);
 var quantity2 = parseInt(quantity2Input.value);
 var quantity3 = parseInt(quantity3Input.value);
 
-var cost1 = 500.00;
-var cost2 = 1,200.00;
-var cost3 = 800.00;
+var cost1 = 500;
+var cost2 = 1.200;
+var cost3 = 800;
 
 var totalCost1 = quantity1 * cost1;
 var totalCost2 = quantity2 * cost2;
