@@ -421,14 +421,20 @@ font-variation-settings:
     }
 
 
+
+
     .spazio-vuoto{
       width: 100%;
       height: 10%;
     }
     
     #titolo-carrello{
+      font-family:'Patrick Hand', cursive;
+      text-align: center;
+      color: #ea4f8a;
+      padding: 2%;
+      font-weight: bold;
       margin: 50px auto 10px auto;
-      padding: 0px;
     }
     
     #contenitore-carrello{
@@ -513,15 +519,13 @@ font-variation-settings:
       }
     }
     
-                                                                /*carrello*/
-    
     #spazio-aboutus{
       width: 100%;
       height: 8%;
     }
     
     #fascia1{
-      background-image: url(img/3chef.webp);
+      background-image: url(immagini/anello\ cerchio.JPG);
       width: 100%;
       min-height: 750px;
       background-position: center;
@@ -532,7 +536,7 @@ font-variation-settings:
     #titolo-aboutus{
       color:white;
       margin: 0px auto ;
-      text-shadow: 0px 0px 20px #935931;
+      text-shadow: 0px 0px 20px #ea4f8a;
       padding-top: 4%;
     }
     
@@ -555,7 +559,7 @@ font-variation-settings:
       margin-bottom: 0px;
     }
     #fascia2{
-      background-image: url(img/cake10intera.webp);
+      background-image: url(immagini/collana\ nera.JPG);
       width: 100%;
       min-height: 750px;
       background-position: center;
@@ -563,7 +567,7 @@ font-variation-settings:
     }
     
     #personalizzazione{
-      color:#935931;
+      color:#ea4f8a;
       font-family: 'DM Serif Display', serif;
       text-align: center;
       margin: 30px auto 20px auto;
@@ -579,7 +583,7 @@ font-variation-settings:
     }
     
     #fascia3{
-      background-image: url(img/vassoio\ muffin.webp);
+      background-image: url(immagini/orecchino\ oro\ rosa.JPG);
       width: 100%;
       min-height: 750px;
       background-position: center;
@@ -597,7 +601,7 @@ font-variation-settings:
     }
     
     #bottone-prodotti{
-      background-color: #935931;
+      background-color: #47A99E;
       z-index: 2;
       padding: 10px;
       width: 10%;
@@ -612,7 +616,7 @@ font-variation-settings:
       padding: 10%;
       border-radius: 10px;
       box-shadow: 0px 0px 20px white;
-      color:#FFE6AE;
+      color:#ea4f8a;
     }
     
     @media screen and (max-width: 1200px){
@@ -653,7 +657,7 @@ font-variation-settings:
       }
       
       #bottone-prodotti{
-        background-color: #935931;
+        background-color: #47A99E;
         z-index: 2;
         padding: 10px;
         width: 20%;
@@ -668,7 +672,7 @@ font-variation-settings:
         padding: 10% 20%;
         border-radius: 10px;
         box-shadow: 0px 0px 20px white;
-        color:#FFE6AE;
+        color:#ea4f8a;
       }
     
       #spazio-aboutus{
@@ -677,7 +681,7 @@ font-variation-settings:
       }
     
       #fascia1{
-        background-image: url(img/3chef.webp);
+        background-image: url(immagini/anello\ cerchio.JPG);
         min-height: 500px;
         background-position: center;
         background-size: cover;
@@ -685,14 +689,14 @@ font-variation-settings:
       }
     
       #fascia2{
-        background-image: url(img/cake10intera.webp);
+        background-image: url(immagini/collana\ nera.JPG);
         min-height: 500px;
         background-position: center;
         background-size: cover;
       }
     
       #fascia3{
-        background-image: url(img/vassoio\ muffin.webp);
+        background-image: url(immagini/orecchino\ oro\ rosa.JPG);
         min-height: 500px;
         background-position: center;
         background-size: cover;
@@ -710,7 +714,7 @@ font-variation-settings:
       }
       
       #bottone-prodotti{
-        background-color: #935931;
+        background-color: #47A99E;
         z-index: 2;
         padding: 10px;
         width: 20%;
@@ -725,7 +729,7 @@ font-variation-settings:
         padding: 10% 20%;
         border-radius: 10px;
         box-shadow: 0px 0px 20px white;
-        color:#FFE6AE;
+        color:#ea4f8a;
       }
     }
     
@@ -748,7 +752,7 @@ font-variation-settings:
       }
     
       #fascia1{
-        background-image: url(img/3chef.webp);
+        background-image: url(immagini/anello\ cerchio.JPG);
         min-height: 250px;
         background-position: center;
         background-size: cover;
@@ -761,7 +765,7 @@ font-variation-settings:
         font-size: 20px;
         color:white;
         margin: auto;
-        text-shadow: 0px 0px 8px #935931;
+        text-shadow: 0px 0px 8px #47A99E;
         margin-top: 30%;
         margin-bottom: -20px;
         }
@@ -781,22 +785,22 @@ font-variation-settings:
       }
     
       #fascia2{
-        background-image: url(img/cake10intera.webp);
+        background-image: url(immagini/collana\ nera.JPG);
         min-height: 250px;
         background-position: center;
         background-size: cover;
       }
     
       #personalizzazione{
-        color:#935931;
-        font-family: 'DM Serif Display', serif;
+        color:#ea4f8a;
+        font-family:'Patrick Hand', cursive;
         font-size: 20px;
         text-align: center;
         margin: 10px auto;
       }
     
       #fascia3{
-        background-image: url(img/vassoio\ muffin.webp);
+        background-image: url(immagini/orecchino\ oro\ rosa.JPG);
         min-height: 250px;
         background-position: center;
         background-size: cover;
@@ -814,7 +818,7 @@ font-variation-settings:
       }
       
       #bottone-prodotti{
-        background-color: #935931;
+        background-color:#ea4f8a;
         z-index: 2;
         padding: 8px;
         font-size: 8px;
@@ -829,9 +833,11 @@ font-variation-settings:
       #bottone-prodotti a:hover{
         border-radius: 10px;
         box-shadow: 0px 0px 20px white;
-        color:#FFE6AE;
+        color:#47A99E;
       }
     }
+
+
 
 .checkout-button {
   display: inline-block;
@@ -885,6 +891,7 @@ form input[type="submit"] {
 form input[type="submit"]:hover {
   background-color:#47A99E;
 }
+
 
 .separa{
   background-color:white;
