@@ -438,16 +438,16 @@ font-variation-settings:
     }
     
     #contenitore-carrello{
-      background-color: white;
+      background-image: url(immagini/chiaro.jpg);
       margin-top: 0px;
       padding: 10px;
       border-radius: 10px;
-      box-shadow: 0px 0px 20px #935931;
+      box-shadow: 0px 0px 20px #47A99E;
     }
     
     tr{
       background-color: white;
-      border-bottom: 1px solid #935931;
+      border-bottom: 1px solid #47A99E;
       vertical-align: middle;
     }
     
@@ -467,7 +467,7 @@ font-variation-settings:
     }
     
     .bottoni-carrello{
-      background-color: #935931;
+      background-color: #47A99E;
       color: white;
       border-radius: 5px;
       width: 50px;
@@ -475,7 +475,7 @@ font-variation-settings:
     }
     
     .footer-capriccioso{
-      background-color: #935931;
+      background-color: #47A99E;
       color: white;
       padding: 10px;
       position: inherit;
@@ -498,11 +498,11 @@ font-variation-settings:
       }
     
       #contenitore-carrello{
-        background-color: white;
+        background-image: url(immagini/chiaro.jpg);
         margin: 0px auto;
         padding: 10px;
         border-radius: 10px;
-        box-shadow: 0px 0px 20px #935931;
+        box-shadow: 0px 0px 20px #47A99E;
         max-width: 90%;
       }
     
@@ -510,7 +510,7 @@ font-variation-settings:
         display:none;
       }
       .footer-capriccioso{
-        background-color: #935931;
+        background-color: #47A99E;
         color: white;
         padding: 10px;
         position: inherit;
