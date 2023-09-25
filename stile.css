@@ -248,8 +248,10 @@ font-variation-settings:
     }
     
   .sfondoprod{
-    max-width: 80%;
-    min-width: 10%;
+    max-width: 60%;
+    min-width: 20%;
+    max-height: 60%;
+    min-height: 20%;
     background-image: url("immagini/chiaro.jPg");
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -260,7 +262,7 @@ font-variation-settings:
   #prodotti-singoli{
     margin-top: 0px;
     border-radius: 10px;
-    box-shadow: 0px 0px 20px #935931;
+    box-shadow: 0px 0px 20px #ea4f8a;
     background-color: white;
     z-index: 3;
     width: 70%;
@@ -278,7 +280,7 @@ font-variation-settings:
     margin: auto;
   }
   
-  #titolo-cupcake{
+  #titolo-anello{
     font-family: 'DM Serif Display', serif;
     text-align: center;
     color: black;
@@ -290,7 +292,7 @@ font-variation-settings:
     #prodotti-singoli{
       margin-top: 0px;
       border-radius: 10px;
-      box-shadow: 0px 0px 20px #935931;
+      box-shadow: 0px 0px 20px #ea4f8a;
       background-color: white;
       z-index: 3;
       width: 80%;
@@ -298,7 +300,7 @@ font-variation-settings:
       padding:3%;
     }
   
-    #titolo-cupcake{
+    #titolo-anello{
       margin: 0px auto;
       padding: 20px;
     }
@@ -309,7 +311,7 @@ font-variation-settings:
     
   }
 
-  
+
   #body-prodotti{
     background-image: url("immagini/chiaro.jPg");
     background-repeat: no-repeat;
