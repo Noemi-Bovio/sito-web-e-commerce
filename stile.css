@@ -111,6 +111,7 @@ body {
 
 #centro {
   background-color:aliceblue;
+  image: url("immagini/chiaro.jpg"); 
   max-width: 80%;
   min-width: 10%;
   padding: 50px;
