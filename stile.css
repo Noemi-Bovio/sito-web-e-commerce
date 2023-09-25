@@ -18,16 +18,16 @@ body {
 
 
 .logo img{
-    max-width: 200%;
+    max-width: 100%;
     min-width: 50%;
-    margin-left: -55px;
-    padding: auto;
+    margin-left: 445px;
+    padding: 2px;
   }
     .navbar-nav {
       text-align: center;
       font-size: 18px;
       font-family: 'Patrick Hand', cursive;
-      margin: auto;
+      margin-left: 445px;
     }
       nav ul {
       list-style-type: none;
