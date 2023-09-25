@@ -129,7 +129,7 @@ body {
         text-align: center;
         padding: 20px;
         margin-top: 60px;
-        background-color: #ea4f8a;
+        background-color: #47A99E;
         max-width: 40%;
         min-width: 10%;
         border-radius: 10px;
@@ -227,8 +227,8 @@ body {
 
     .cta-button {
       display: inline-block;
-      background-color:#47A99E;
-      color: #333;
+      background-color:#ea4f8a;
+      color: white;
       padding: 10px 20px;
       font-size: 18px;
       text-decoration: none;
@@ -237,8 +237,8 @@ body {
     }
     
     .cta-button:hover {
-      background-color: #ea4f8a;
-      color:white;
+      background-color: #47A99E;
+      color:#4f4641;
     }
 
     .chisiamo {
