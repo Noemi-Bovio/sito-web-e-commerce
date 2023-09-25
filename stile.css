@@ -19,8 +19,7 @@ body {
 
 #totale {
       background-color: red;
-      object-position: center;
-      display: inline, center;
+      margin:auto;
     }
 
 
@@ -56,6 +55,7 @@ body {
     text-decoration: underline;
     color: blueviolet;
       font-weight: bold; }
+      
               /* Stili per la barra di ricerca */
               .search-container {
                 width: 300px;
@@ -77,12 +77,6 @@ body {
                 border-radius: 5px;
                 padding: 5px 20px;
                 cursor: pointer;
-                font-size: 12px;
-            }
-    
-            /* Stili per il risultato di ricerca (solo a scopo di dimostrazione) */
-            .search-result {
-                margin-top: 20px;
                 font-size: 12px;
             }
 
