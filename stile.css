@@ -18,8 +18,8 @@ body {
     }
 
 #totale {
-      background-color: blanchedalmond;
-      max-width: 25%;
+      background-color: pink;
+      max-width: 100%;
       min-width: 10%;
       margin:auto auto auto 250px;
     }
@@ -35,7 +35,6 @@ body {
       text-align: center;
       font-size: 18px;
       font-family: 'Patrick Hand', cursive;
-      margin-left: 385px;
       padding: 2px;
     }
       nav ul {
