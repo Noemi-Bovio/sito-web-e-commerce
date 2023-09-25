@@ -99,11 +99,15 @@ body {
 .separa{
           background-color:white;
           max-width: 100%;
-          min-width: 10%;}
+          min-width: 10%;
+        }
 
 #centro h3{
+  font-size: 22px;
+  text-align: center;
   font-family:'Patrick Hand', cursive;
-  color:#ea4f8a}
+  color:#ea4f8a
+}
 
 #centro {
   background-color:aliceblue;
@@ -148,6 +152,7 @@ body {
     }
 
     .product h3 {
+        text-align: center;
         font-size: 24px;
         margin: 10px 0;
     }
@@ -210,6 +215,7 @@ body {
     }
 
     .banner h2 {
+      text-align: center;
       color:white;
       text-shadow: 0px 0px 6px #333;
     }
@@ -356,6 +362,16 @@ form input[type="submit"]:hover {
   padding:20px;
 }
 
+#cookie{
+  color: white;
+  font-size:10px;
+  background-color:#ea4f8a;;
+  margin: 2px solid white;
+  width: 200px;
+  padding: 15px;
+  display:none;
+}
+
 @media screen and (max-width: 690px){
   #bottoncinocookie {
   position: fixed;
@@ -367,7 +383,7 @@ form input[type="submit"]:hover {
 #cookie{
   color: white;
   font-size:10px;
-  background-color:#4f4641;
+  background-color:#ea4f8a;;
   margin: 2px solid white;
   width: 200px;
   padding: 15px;
