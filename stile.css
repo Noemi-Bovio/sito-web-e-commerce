@@ -102,6 +102,7 @@ body {
           min-width: 10%;}
 
 #centro h3{
+  font-family:'Patrick Hand', cursive;
   color:#ea4f8a}
 
 #centro {
@@ -131,8 +132,10 @@ body {
     }
 
 #prodevidenza h1{
+  font-family:'Patrick Hand', cursive;
       color:white;
     }
+
     .product {
         background-color: aliceblue;
         display: inline-block;
@@ -199,6 +202,7 @@ body {
     }
 
     .banner h1 {
+      font-family:'Patrick Hand', cursive;
       font-size: 80px;
       margin-bottom: 20px;
       color:white;
