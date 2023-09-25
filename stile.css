@@ -18,8 +18,10 @@ body {
     }
 
 #totale {
-      background-color: red;
-      margin:auto;
+      background-color: blanchedalmond;
+      max-width: 25%;
+      min-width: 10%;
+      margin:auto auto auto 250px;
     }
 
 
