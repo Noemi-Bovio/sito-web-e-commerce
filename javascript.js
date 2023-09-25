@@ -1,4 +1,14 @@
 
+// Funzione per aprire il popup
+document.getElementById("apriPopup").addEventListener("click", function() {
+  document.getElementById("popup").style.display = "block";
+});
+
+// Funzione per chiudere il popup
+document.getElementById("chiudiPopup").addEventListener("click", function() {
+  document.getElementById("popup").style.display = "none";
+});
+
 var swiper = new Swiper(".mySwiper", {
       spaceBetween: 30,
       effect: "fade",
