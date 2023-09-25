@@ -48,8 +48,9 @@ body {
       margin-right: 20px;
   }
 
-  nav a:hover {
+  nav-link a:hover {
       text-decoration: underline;
+      color:red;
       font-weight: bold; }
 
               /* Stili per la barra di ricerca */
