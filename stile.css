@@ -98,7 +98,8 @@ body {
           background-color:white;
           max-width: 100%;
           min-width: 10%;}
-h1{
+
+h2{
   color:#ea4f8a}
 
 #centro {
@@ -117,6 +118,12 @@ h1{
         padding: 20px 0;
     }
 
+#prodevidenza {
+        text-align: center;
+        padding: 20px 0;
+        background-color: #ff0000;
+    }
+    
     .product {
         background-color: aliceblue;
         display: inline-block;
