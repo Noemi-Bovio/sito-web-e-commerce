@@ -77,7 +77,22 @@ body {
                 cursor: pointer;
                 font-size: 12px;
             }
+      /* Stili per le icone */
+      .icon {
+        font-size: 24px;
+        margin-right: 10px;
+        color: #333;
+    }
 
+    /* Stili per le icone "carrello" e "preferiti" */
+    .cart-icon {
+        color: #007BFF;
+    }
+
+    .favorite-icon {
+        color: #FF5733;
+    }
+    
 .separa{
           background-color:white;
           max-width: 100%;
