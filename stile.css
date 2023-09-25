@@ -406,7 +406,9 @@ font-variation-settings:
 
     .chisiamo {
       padding: 20px;
-      background-color:white;
+      background-color:aliceblue;
+      box-shadow: 0px 0px 20px #47A99E;
+      width: 60%;
       margin:auto;
       padding-left: 15%;
       padding-right: 15%;
@@ -417,8 +419,10 @@ font-variation-settings:
     
     .chisiamo h2 {
       font-size: 60px;
-      color:#333;
+      color:#ea4f8a;
       background-color:  #47A99E;
+      font-family:'Patrick Hand', cursive;
+      border: 10px;
       text-align: center;
       margin-bottom: 30px;
       padding: 5%;
