@@ -397,7 +397,7 @@ font-variation-settings:
 .sfondochi {
   margin-top: 0px;
   box-shadow: 0px 0px 20px #47A99E;
-  background-image: url("immagini/chiaro.jpg");
+  background-image: url("immagini/modella\ home.jpg");
   z-index: 3;
   width: 100%;
   height: auto;
@@ -406,9 +406,10 @@ font-variation-settings:
 
     .chisiamo {
       padding: 20px;
-      background-color:aliceblue;
+      background-image: url("immagini/chiaro.jpg");
+      border-radius: 10px;
       box-shadow: 0px 0px 20px #47A99E;
-      width: 60%;
+      width: 50%;
       margin:auto;
       padding-left: 15%;
       padding-right: 15%;
@@ -418,11 +419,11 @@ font-variation-settings:
     }
     
     .chisiamo h2 {
-      font-size: 60px;
-      color:#ea4f8a;
-      background-color:  #47A99E;
+      font-size: 50px;
+      color:white;
+      background-color: #ea4f8a;
       font-family:'Patrick Hand', cursive;
-      border: 10px;
+      border-radius: 10px;
       text-align: center;
       margin-bottom: 30px;
       padding: 5%;
