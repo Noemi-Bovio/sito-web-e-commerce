@@ -44,18 +44,12 @@ body {
       display: inline;
       margin-right: 20px;
   }
-  
-  nav ul li a {
-      text-decoration: none;
-      color: blueviolet;
-      font-weight: bold;
-  }
 
   nav a:hover {
     text-decoration: underline;
     color: blueviolet;
       font-weight: bold; }
-      
+
               /* Stili per la barra di ricerca */
               .search-container {
                 width: 300px;
