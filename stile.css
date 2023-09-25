@@ -48,8 +48,7 @@ body {
   }
 
   nav a:hover {
-    text-decoration: underline;
-    color: blueviolet;
+      text-decoration: underline;
       font-weight: bold; }
 
               /* Stili per la barra di ricerca */
