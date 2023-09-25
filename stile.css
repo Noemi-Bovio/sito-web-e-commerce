@@ -17,6 +17,12 @@ body {
       padding: 15px;
     }
 
+#totale {
+      background-color: red;
+      object-position: center;
+      display: inline, center;
+    }
+
 
 .logo img{
     max-width: 25%;
