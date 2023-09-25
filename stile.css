@@ -103,7 +103,7 @@ body {
         }
 
 #centro h3{
-  font-size: 22px;
+  font-size: 45px;
   text-align: center;
   font-family:'Patrick Hand', cursive;
   color:#ea4f8a
@@ -141,7 +141,7 @@ body {
     }
 
     .product {
-        background-color: aliceblue;
+        background-color: #47A99E;
         display: inline-block;
         margin: 20px;
     }
@@ -152,6 +152,8 @@ body {
     }
 
     .product h3 {
+        color: #4f4641;
+        font-family:'Patrick Hand', cursive;
         text-align: center;
         font-size: 24px;
         margin: 10px 0;
