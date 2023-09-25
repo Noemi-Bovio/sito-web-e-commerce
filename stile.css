@@ -247,13 +247,68 @@ font-variation-settings:
         font-size: 22px;
     }
     
-  .sfondo prod{
+  .sfondoprod{
+    max-width: 80%;
+    min-width: 10%;
     background-image: url("immagini/chiaro.jPg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
   }
+
+  #prodotti-singoli{
+    margin-top: 0px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px #935931;
+    background-color: white;
+    z-index: 3;
+    width: 70%;
+    height: auto;
+    padding:3%;
+  }
+  
+  #spazio-prodotto{
+    height: 10%;
+    width: auto;
+  }
+  
+  .immagine-prodotto{
+    width: 100%;
+    margin: auto;
+  }
+  
+  #titolo-cupcake{
+    font-family: 'DM Serif Display', serif;
+    text-align: center;
+    color: black;
+    margin: auto;
+    padding: 0px;
+  }
+
+  @media screen and (max-width: 768px){
+    #prodotti-singoli{
+      margin-top: 0px;
+      border-radius: 10px;
+      box-shadow: 0px 0px 20px #935931;
+      background-color: white;
+      z-index: 3;
+      width: 80%;
+      height: auto;
+      padding:3%;
+    }
+  
+    #titolo-cupcake{
+      margin: 0px auto;
+      padding: 20px;
+    }
+  
+    p.mb-4{
+      margin-top: 20px;
+    }
+    
+  }
+
   
   #body-prodotti{
     background-image: url("immagini/chiaro.jPg");
