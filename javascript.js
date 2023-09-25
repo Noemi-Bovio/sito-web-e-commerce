@@ -95,9 +95,9 @@ var quantity1 = parseInt(quantity1Input.value);
 var quantity2 = parseInt(quantity2Input.value);
 var quantity3 = parseInt(quantity3Input.value);
 
-var cost1 = 20;
-var cost2 = 13;
-var cost3 = 15;
+var cost1 = 500.00;
+var cost2 = 1,200.00;
+var cost3 = 800.00;
 
 var totalCost1 = quantity1 * cost1;
 var totalCost2 = quantity2 * cost2;
