@@ -353,6 +353,31 @@ form input[type="submit"]:hover {
   padding:20px;
 }
 
+@media screen and (max-width: 690px){
+  #bottoncinocookie {
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  width: 100px;
+  border-radius: 30px;
+}
+#cookie{
+  color: white;
+  font-size:10px;
+  background-color: black;
+  margin: 2px solid white;
+  width: 200px;
+  padding: 15px;
+  display:none;
+}
+#perchiudere{
+  font-size: 15px;
+  margin-left: 185px;
+}
+#freccina{
+  padding: 40px;
+}
+}
 
 
 .footer {
