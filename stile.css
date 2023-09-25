@@ -246,24 +246,12 @@ font-variation-settings:
         font-weight: bold;
         font-size: 22px;
     }
-    
-  .sfondoprod{
-    max-width: 60%;
-    min-width: 20%;
-    max-height: 60%;
-    min-height: 20%;
-    background-image: url("immagini/chiaro.jPg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center;
-  }
 
   #prodotti-singoli{
     margin-top: 0px;
     border-radius: 10px;
-    box-shadow: 0px 0px 20px #ea4f8a;
-    background-color: white;
+    box-shadow: 0px 0px 20px #4f4641;
+    background-color: aliceblue;
     z-index: 3;
     width: 70%;
     height: auto;
@@ -281,7 +269,7 @@ font-variation-settings:
   }
   
   #titolo-anello{
-    font-family: 'DM Serif Display', serif;
+    font-family:'Patrick Hand', cursive;
     text-align: center;
     color: black;
     margin: auto;
@@ -292,8 +280,8 @@ font-variation-settings:
     #prodotti-singoli{
       margin-top: 0px;
       border-radius: 10px;
-      box-shadow: 0px 0px 20px #ea4f8a;
-      background-color: white;
+      box-shadow: 0px 0px 20px #4f4641;
+      background-color: aliceblue;
       z-index: 3;
       width: 80%;
       height: auto;
