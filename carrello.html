@@ -79,87 +79,105 @@
   </center>
 </header>
 
+<div class="spazio-vuoto">
+</div>
 
-    <main class="container my-5">
-      <h1 class="mb-4">Carrello</h1>
-      <table class="table table-striped">
-        <thead>
-          <tr>
-            <th scope="col">#</th>
-            <th scope="col">Prodotto</th>
-            <th scope="col">Prezzo</th>
-            <th scope="col">Quantità</th>
-            <th scope="col">Totale</th>
-            <th scope="col"></th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <th scope="row">1</th>
-            <td>Nome prodotto 1</td>
-            <td>€XX,XX</td>
-            <td>
-              <input type="number" class="form-control" min="1" value="1" />
-            </td>
-            <td>€XX,XX</td>
-            <td>
-              <button class="btn btn-danger btn-sm">
-                <i class="bi bi-trash"></i>
-              </button>
-            </td>
-          </tr>
-          <tr>
-            <th scope="row">2</th>
-            <td>Nome prodotto 2.</td>
-            <td>€XX,XX</td>
-            <td>
-              <input type="number" class="form-control" min="1" value="1" />
-            </td>
-            <td>€XX,XX</td>
-            <td>
-              <button class="btn btn-danger btn-sm">
-                <i class="bi bi-trash"></i>
-              </button>
-            </td>
-          </tr>
-          <tr>
-            <th scope="row">3</th>
-            <td>Nome prodotto 3</td>
-            <td>€XX,XX</td>
-            <td>
-              <input type="number" class="form-control" min="1" value="1" />
-            </td>
-            <td>€XX,XX</td>
-            <td>
-              <button class="btn btn-danger btn-sm">
-                <i class="bi bi-trash"></i>
-              </button>
-            </td>
-          </tr>
-        </tbody>
-      </table>
-      <div class="row justify-content-end">
-        <div class="col-lg-4">
-          <table class="table">
-            <tbody>
-              <tr>
-                <th scope="row">Totale prodotti:</th>
-                <td>€XX,XX</td>
-              </tr>
-              <tr>
-                <th scope="row">Costi di spedizione:</th>
-                <td>€XX,XX</td>
-              </tr>
-              <tr>
-                <th scope="row">Totale:</th>
-                <td>€XX,XX</td>
-              </tr>
-            </tbody>
-          </table>
-          <a href="#" class="btn btn-primary w-100">Procedi al pagamento</a>
-        </div>
+    <!-- carrello -->
+
+  <h1 id="titolo-carrello">Carrello</h1>
+  
+  <main id="contenitore-carrello" class="container my-5">
+    <table class="table table">
+      <thead>
+        <tr>
+          <th scope="col"></th>
+          <th scope="col">Prodotto</th>
+          <th scope="col" class="prezzo-singolo">Prezzo</th>
+          <th scope="col"><label for="quantity">Quantità</label></th>
+          <th scope="col">Totale</th>
+          <th scope="col">Custom</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">
+            <img class="img_carrello" src="img/cake5.webp">
+          </th>
+          <td><b>TORTA</b></td>
+          <td class="prezzo-singolo">€20</td>
+          <td>
+            <input type="number" id="quantity1" min="0" value="0">
+          </td>
+          <td id="totalCost1">€0</td>
+          <td>
+            <button class="bottoni-carrello">No</button>
+          </td>
+        </tr>
+
+
+        <tr>
+          <th scope="row">
+            <img class="img_carrello" src="img/muffin4.webp">
+          </th>
+          <td><b>CUPCAKE</b></td>
+          <td class="prezzo-singolo">€13</td>
+          <td>
+            <input type="number" id="quantity2" min="0" value="0">
+          </td>
+          <td id="totalCost2">€0</td>
+          <td>
+            <button class="bottoni-carrello" style="background-color: #FFE6AE; color:#935931;"><a href="muffin.html">Si</a></button>
+          </td>
+        </tr>
+
+
+        <tr>
+          <th scope="row">
+            <img class="img_carrello" src="img/roll2.webp">
+          </th>
+          <td><b>ROLL</b></td>
+          <td class="prezzo-singolo">€15</td>
+          <td>
+            <input type="number" id="quantity3" min="0" value="0">
+          </td>
+          <td id="totalCost3">€0</td>
+          <td>
+            <button class="bottoni-carrello">No</button>
+          </td>
+        </tr>
+      </tbody>
+      
+
+
+    </table>
+    <div class="row justify-content-end">
+      <div class="col-lg-4">
+        <table class="table">
+          <tbody>
+            <tr>
+              <th scope="row">Totale prodotti:</th>
+              <td id="subTotal">€0</td>
+            </tr>
+
+
+            <tr>
+              <th scope="row">Costi di spedizione:</th>
+              <td id="shippingCost">€8</td>
+            </tr>
+
+
+            <tr>
+              <th scope="row">Totale:</th>
+              <td id="grandTotal">€0</td>
+            </tr>
+          </tbody>
+
+
+        </table>
+        <a href="#" class="btn btn-primary w-100">Procedi al pagamento</a>
       </div>
-    </main>
+    </div>
+  </main>
 
     <!-- footer --> 
     <footer class="footer">
