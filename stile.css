@@ -18,22 +18,22 @@ body {
     }
 
 #totale {
-      background-color: pink;
+      background-color:red;
       max-width: 100%;
       min-width: 10%;
-      margin:auto auto auto 250px;
+      margin:auto auto auto 460px;
     }
 
 
 .logo img{
-    max-width: 25%;
+    max-width: 30%;
     min-width: 5%;
     padding: 2px;
     position: center;
   }
     .navbar-nav {
       text-align: center;
-      font-size: 18px;
+      font-size: 20px;
       font-family: 'Patrick Hand', cursive;
       padding: 2px;
     }
