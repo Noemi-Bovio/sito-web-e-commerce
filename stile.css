@@ -101,7 +101,7 @@ body {
           max-width: 100%;
           min-width: 10%;}
 
-h3{
+#centro h3{
   color:#ea4f8a}
 
 #centro {
@@ -131,7 +131,7 @@ h3{
     }
 
 #prodevidenza h1{
-      color:red;
+      color:white;
     }
     .product {
         background-color: aliceblue;
@@ -363,7 +363,7 @@ form input[type="submit"]:hover {
 #cookie{
   color: white;
   font-size:10px;
-  background-color: black;
+  background-color: red;
   margin: 2px solid white;
   width: 200px;
   padding: 15px;
