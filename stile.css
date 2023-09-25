@@ -84,13 +84,10 @@ body {
         color: #333;
     }
 
-    /* Stili per le icone "carrello" e "preferiti" */
-    .cart-icon {
-        color: pink;
-    }
+    /* Stili per le icone "carrello" e "preferiti" *
 
-    .favorite-icon {
-        color: #FF5733;
+    .boxcarrello{
+      float: right;
     }
   
     .cuore {
