@@ -92,7 +92,15 @@ body {
     .favorite-icon {
         color: #FF5733;
     }
-
+  
+    .material-symbols-outlined {
+      font-variation-settings:
+      'FILL' 0,
+      'wght' 400,
+      'GRAD' 0,
+      'opsz' 24
+    }
+   
 .separa{
           background-color:white;
           max-width: 100%;
