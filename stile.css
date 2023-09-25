@@ -57,27 +57,27 @@ body {
             }
     
             .search-box {
-                width: 100%;
-                padding: 10px;
-                border: 1px solid #ccc;
-                border-radius: 5px;
-                font-size: 16px;
+                width: 54%;
+                padding: 5px;
+                border: 1px solid #47A99E;
+                border-radius: 10px;
+                font-size: 12px;
             }
     
             .search-button {
-                background-color: #007BFF;
-                color: #fff;
+                background-color: #ea4f8a;;
+                color: white;
                 border: none;
                 border-radius: 5px;
-                padding: 10px 20px;
+                padding: 5px 20px;
                 cursor: pointer;
-                font-size: 16px;
+                font-size: 12px;
             }
     
             /* Stili per il risultato di ricerca (solo a scopo di dimostrazione) */
             .search-result {
                 margin-top: 20px;
-                font-size: 18px;
+                font-size: 12px;
             }
 
 .separa{
