@@ -86,13 +86,13 @@ body {
 
     /* Stili per le icone "carrello" e "preferiti" */
     .cart-icon {
-        color: #007BFF;
+        color: pink;
     }
 
     .favorite-icon {
         color: #FF5733;
     }
-    
+
 .separa{
           background-color:white;
           max-width: 100%;
