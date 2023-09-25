@@ -320,6 +320,16 @@ font-variation-settings:
   padding:3%;
 }
 
+.card-title h3 {
+  font-family:'Patrick Hand', cursive;
+  font-size: 12px;
+  text-align: center;
+  color: #ea4f8a;
+  margin: auto;
+  padding: 2%;
+  font-weight: bold;
+}
+
   #body-contatti{
     background-image: url("immagini/chiaro.jpg");
     background-repeat: no-repeat;
