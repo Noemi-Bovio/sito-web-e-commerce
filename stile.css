@@ -356,6 +356,10 @@ font-variation-settings:
       object-fit: cover;
     }
 
+.swiper-pagination{
+	align-items: center;
+}
+
     .banner {
       background-image: url(immagini/modella\ home.jpg);
       background-size: cover;
