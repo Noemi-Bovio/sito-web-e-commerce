@@ -25,12 +25,9 @@ img[alt~='center'] {
 
 ## Corso di Web Design
 
-Introduzione agli strumenti di sviluppo web
+Introduzione agli strumenti di sviluppo web.
 _Lezione introduttiva del corso: conoscenza, obiettivi, primi argomenti.
 Parleremo di HTML, CSS, Javascript e di tecniche di sviluppo web_
-
-
-
 ---
 
 ## Nuova Slide
