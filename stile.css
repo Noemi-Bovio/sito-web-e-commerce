@@ -495,35 +495,6 @@ font-siza:20px;
       margin-bottom: 30px;
     }
 
-    .membri {
-      background-image: url(immagini/chiaro.jpg);
-  }
-
-    .team-member {
-      display: inline-block;
-      width: 30%;
-      padding: 20px;
-      text-align: center;
-      margin: 10px;
-      background-color: #fff;
-      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  }
-
-  .team-member img {
-      max-width: 100%;
-      border-radius: 50%;
-  }
-
-  .team-member h3 {
-      margin: 10px 0;
-      color:#ea4f8a;
-      font-family:'Patrick Hand', cursive;
-  }
-
-  .team-member p {
-      color: #666;
-  }
-
 
 
     .spazio-vuoto{
