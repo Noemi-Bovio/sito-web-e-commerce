@@ -330,7 +330,7 @@ font-variation-settings:
 }
 
   #body-contatti{
-    background-image: url("immagini/artigianale.jpg");
+    background-image: url("immagini/chiaro.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -403,7 +403,7 @@ font-variation-settings:
     .sfondochi {
       margin-top: 0px;
       box-shadow: 0px 0px 20px #47A99E;
-      background-image: url("immagini/modella\ home.jpg");
+      background-image: url("immagini/artigianale.jpg");
       background-repeat: no-repeat;
       background-attachment: fixed;
       background-size: cover;
