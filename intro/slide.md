@@ -11,7 +11,7 @@ header: '**Noemi Bovio** _Immagine di impresa_'
 
 # Corso WebDesign
 
-Presentazione Sito Web E-commerce
+Presentazione
 
 
 
@@ -31,7 +31,7 @@ img[alt~='center'] {
 Sviluppo di un sito web tramite l'utilizzo del linguaggio HTML, CSS, Javascript.
 Conoscenza, obiettivi, primi argomenti e tecniche di sviluppo web.
 
-https://boviossproject.netlify.app
+noemi@bovio.it – <https://www.bovio.it>
 
 ---
 
