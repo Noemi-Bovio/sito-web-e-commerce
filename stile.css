@@ -444,6 +444,9 @@ font-variation-settings:
       margin-bottom: 30px;
     }
 
+    .membri {
+      background-image: url(immagini/chiaro.jpg);
+  }
 
     .team-member {
       display: inline-block;
