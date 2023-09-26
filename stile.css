@@ -463,8 +463,10 @@ font-variation-settings:
       border-radius: 50%;
   }
 
-  .team-member h2 {
+  .team-member h3 {
       margin: 10px 0;
+      color:#ea4f8a;
+      font-family:'Patrick Hand', cursive;
   }
 
   .team-member p {
