@@ -402,7 +402,9 @@ font-variation-settings:
       background-color: #47A99E;
       color:#4f4641;
     }
-
+    .card h-100 {
+    margin:10px;
+  }
     .sfondochi {
       margin-top: 0px;
       box-shadow: 0px 0px 20px #47A99E;
