@@ -338,19 +338,22 @@ font-variation-settings:
   }
 
     .swiper {
-      width: auto;
-      height: auto;
-      padding: 10%
+      width: 100%;
+      height: 85%;
     }
 
     .swiper-slide {
-      background-position: center;
-      background-size: cover;
+      background: #47A99E;
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
 
     .swiper-slide img {
+      display: block;
       width: 100%;
       height: 100%;
+      object-fit: cover;
     }
 
     .banner {
